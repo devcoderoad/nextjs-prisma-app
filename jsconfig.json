@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@*": ["./*"],
+      "@components/*": [
+        "components/*"
+      ],
+      "@middleware/*": [
+        "middleware/*"
+      ]
+    }
+  },
+  "exclude": ["node_modules", ".next", ".vercel", ".vscode", "dist"]
+}

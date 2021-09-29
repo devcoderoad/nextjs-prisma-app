@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-prisma-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.17.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "bcryptjs": "^2.4.3",
+    "cookie": "^0.4.1",
+    "js-cookie": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "next": "10.0.7",
+    "next-connect": "^0.10.0",
+    "nprogress": "^0.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "axios": "^0.21.1",
+    "postcss": "^8.2.8",
+    "postcss-nested": "^5.0.5",
+    "prisma": "^2.17.0",
+    "tailwindcss": "^2.0.4",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "^12.13.0"
+  }
+}
